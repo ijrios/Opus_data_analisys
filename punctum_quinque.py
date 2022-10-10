@@ -60,9 +60,9 @@ experimenta_h.set_index('Experimenta', inplace=True)
 
 nomen = [i for i in range(len(experimenta_nomen))]
 
-# Creating histogram
-plt.bar(experimentae, height=nomen)
-plt.xticks(experimentae, experimenta_nomen);
+#Creating histogram
+#plt.bar(experimentae, height=nomen)
+#plt.xticks(experimentae, experimenta_nomen);
 #experiementa_h.hist()
 
 experimenta_h.describe()
