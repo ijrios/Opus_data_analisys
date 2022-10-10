@@ -73,7 +73,7 @@ def main():
 
     #j = (len(data_topics))
     # ------  topics -------------
-    dups_topics = pd.pivot_table(data_topics,columns=['Topic','Country of publication'], aggfunc='size').sort_values(ascending = False)
+    #dups_topics = pd.pivot_table(data_topics,columns=['Topic','Country of publication'], aggfunc='size').sort_values(ascending = False)
     dups_topics = pd.pivot_table(data_topics,columns=['Topic'], aggfunc='size').sort_values(ascending = False)
     columns_name = dups_topics.index[0:100]
     columns_points = []
