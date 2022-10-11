@@ -60,10 +60,17 @@ experimenta_h.set_index('Experimenta', inplace=True)
 
 nomen = [i for i in range(len(experimenta_nomen))]
 
-#Creating histogram
+# ------------- Creating histogram ---------------------
 #plt.bar(experimentae, height=nomen)
 #plt.xticks(experimentae, experimenta_nomen);
 #experiementa_h.hist()
 
+experimentus = pd.DataFrame()
+experimentus['Nomen'] = experimenta_nomen
+experimentus['Totalis'] = experimenta_matrix
+#experimentus.set_index(experimentus['Nomen'],inplace=True)
+experimentus.head(33)
+
+experimentus.hist()
 experimenta_h.describe()
 
