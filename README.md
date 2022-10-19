@@ -20,17 +20,17 @@ Se deben realizar las siguientes tareas:
 
 b.	Otros ejercicios de analítica de datos (50%):
 
-•	Realice y entregue resuelto el ejercicio de clase sugerido pendiente correspondiente a la clase donde vimos el tema “Introducción a Pandas” y se dejó una tarea sugerida de 5 puntos de manejo de Pandas.
+1 •	Realice y entregue resuelto el ejercicio de clase sugerido pendiente correspondiente a la clase donde vimos el tema “Introducción a Pandas” y se dejó una tarea sugerida de 5 puntos de manejo de Pandas.
 
-•	Investigue cómo funciona el método de regresión lineal robusta llamado “RANSAC Regressor”. Luego, a través de simulación, genere una población de valores correspondientes a una regresión lineal simple con ruido (una entrada y una salida). Añada una pequeña cantidad de valores extremos atípicos a la población. Compare visualmente el rendimiento de la regresión lineal clásica y del RANSAC Regressor al momento de ajustarse a los datos de la población.
+2 •	Investigue cómo funciona el método de regresión lineal robusta llamado “RANSAC Regressor”. Luego, a través de simulación, genere una población de valores correspondientes a una regresión lineal simple con ruido (una entrada y una salida). Añada una pequeña cantidad de valores extremos atípicos a la población. Compare visualmente el rendimiento de la regresión lineal clásica y del RANSAC Regressor al momento de ajustarse a los datos de la población.
 
-•	Descargue e instale la versión gratuita de PowerBI llamada “PowerBI Desktop”. Utilícela para crear un tablero de control que muestre los principales KPI del conjunto de datos de la asignación de vacunas a los departamentos que se encuentra en la siguiente ruta: https://www.datos.gov.co/Salud-y-Protecci-n-Social/Asignaci-n-de-dosis-de-vacuna-contra-COVID-19/sdvb-4x4j
+3 •	Descargue e instale la versión gratuita de PowerBI llamada “PowerBI Desktop”. Utilícela para crear un tablero de control que muestre los principales KPI del conjunto de datos de la asignación de vacunas a los departamentos que se encuentra en la siguiente ruta: https://www.datos.gov.co/Salud-y-Protecci-n-Social/Asignaci-n-de-dosis-de-vacuna-contra-COVID-19/sdvb-4x4j
 
 El tablero debe responder preguntas relacionadas con la distribución de vacunas por departamento, su variación a través del tiempo, el uso destinado para la vacuna (grupo al que está destinada, número de dosis, etc.), el laboratorio que produjo la vacuna, entre otros.
 
-•	Construya un programa que extraiga y analice de forma automática la información de “National Parks” de la siguiente página https://www.bl.uk/collection-metadata/downloads# . El objetivo del programa es que les permita a sus usuarios responder la siguiente pregunta: ¿Cuáles son las temáticas (topics) más populares de cada país?
+4 •	Construya un programa que extraiga y analice de forma automática la información de “National Parks” de la siguiente página https://www.bl.uk/collection-metadata/downloads# . El objetivo del programa es que les permita a sus usuarios responder la siguiente pregunta: ¿Cuáles son las temáticas (topics) más populares de cada país?
 El programa debe conectarse directamente desde código a la página, descargar el zip, descomprimirlo y cargar el csv a pandas para responder la pregunta (no es válido que usted descargue y descomprima el archivo; esto debe hacerlo Python).
 
-•	Usted compró recientemente el álbum de láminas para el mundial. Suponga que el álbum tiene 300 láminas y que la probabilidad de sacar cualquier lámina es uniforme (es decir, todas las láminas tienen la misma probabilidad de salir).
+5 •	Usted compró recientemente el álbum de láminas para el mundial. Suponga que el álbum tiene 300 láminas y que la probabilidad de sacar cualquier lámina es uniforme (es decir, todas las láminas tienen la misma probabilidad de salir).
 Usando Python, cree un código que de forma aleatoria empiece a sacar una por una las láminas hasta que “llene” completamente el álbum, registrando cuántas láminas tuvo que sacar en total. En Python, repita el experimento anterior unas 10000 veces, y registre en cada experimento el número de láminas que tuvo que sacar para poder llenar el álbum y grafique este valor en un histograma. ¿Cuál es el número promedio de láminas que se necesitan?
 
